@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+.font-roboto {
+  font-family: "Montserrat", sans-serif;
+}
+.font-montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Montserrat", sans-serif !important;
+}
+.skill-progress {
+  height: 8px;
+  background-color: #0c4a6e;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.skill-progress-bar {
+  height: 100%;
+  background-color: #38bdf8;
+  border-radius: 4px;
+}
+.project-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.contact-input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.contact-input:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+.contact-button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.contact-button:hover {
+  background-color: #0284c7;
+  transform: translateY(-2px);
+}
+
+#projects img {
+  height: 230px;
+  object-fit: cover;
+}
+
+.footer-link {
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #0ea5e9;
+}
+.newsletter-input {
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.newsletter-input:focus {
+  border-color: #0ea5e9;
+  box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.2);
+}
+.newsletter-button {
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.newsletter-button:hover {
+  background-color: #0284c7;
+  transform: translateY(-2px);
+}
